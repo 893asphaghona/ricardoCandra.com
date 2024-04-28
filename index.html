@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/feather-icons/dist/feather.css" />
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script src="javascript.js" defer></script>
+    <title>Portofolio | Ricardo Candra</title>
+  </head>
+  <body>
+    <!-- Navbar start -->
+    <nav class="navbar">
+      <a href="#" class="logo">RCS</a>
+
+      <div class="navbar-nav">
+        <a href="#" class="nav-link active">home</a>
+        <a href="#about" class="nav-link active">About</a>
+        <a href="#project" class="nav-link active">project</a>
+        <a href="#contact" class="nav-link active">contact</a>
+      </div>
+
+      <div class="hamburger-menu">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </div>
+    </nav>
+
+    <!-- navbar end -->
+
+    <section class="main-container">
+      <h3>Hello i`m</h3>
+      <h1>Ricardo <span id="candra">candra</span></h1>
+      <p>
+        Welcome to my personal website. I am a 6th-semester student. For further
+        inquiries, please feel free to contact me while enjoying this website
+      </p>
+      <div class="icon">
+        <a
+          href="https://www.instagram.com/ricdo_le?igsh=MTk5NDVkeTNicmdvdg=="
+          target="_blank"
+          class="icon"
+          ><i data-feather="instagram"></i
+        ></a>
+        <a
+          href="https://www.facebook.com/ricardo.csb.1?mibextid=ZbWKwL"
+          target="_blank"
+          class="icon"
+          ><i data-feather="facebook"></i
+        ></a>
+        <a href="#" target="_blank" class="icon"
+          ><i data-feather="linkedin"></i
+        ></a>
+        <a href="https://github.com/893asphaghona" target="_blank" class="icon"
+          ><i data-feather="github"></i
+        ></a>
+      </div>
+      <a href="" target="_blank">Download Cv</a>
+      <img src="img/profile.png" alt="Foto" class="corner-photo" />
+    </section>
+
+    <!-- about start -->
+    <section class="about-container slide-in" id="about">
+      <h5>introduction</h5>
+      <h1>about me</h1>
+      <p>
+        I'm an enthusiastic and dedicated web developer. With a deep passion for
+        technology and creativity, I transform concepts into amazing online
+        experiences. Welcome to my world, where code and design converge to
+        create extraordinary websites. Driven by curiosity and fueled by
+        innovation, I thrive on turning ideas into functional and visually
+        stunning websites. With a keen eye for detail and a commitment to
+        excellence, I strive to deliver solutions that not only meet but exceed
+        expectations. Join me on this journey through the boundless
+        possibilities of the web
+      </p>
+      <div class="skill">
+        <div class="skill-name">HTML</div>
+        <div class="skill-bar">
+          <div class="skill-progress" style="width: 90%"></div>
+        </div>
+      </div>
+      <div class="skill">
+        <div class="skill-name">CSS</div>
+        <div class="skill-bar">
+          <div class="skill-progress" style="width: 80%"></div>
+        </div>
+      </div>
+      <div class="skill">
+        <div class="skill-name">JavaScript</div>
+        <div class="skill-bar">
+          <div class="skill-progress" style="width: 30%"></div>
+        </div>
+      </div>
+
+      <div class="services-container">
+        <h1>our services</h1>
+        <div class="card-about">
+          <div class="card">
+            <i data-feather="command"></i>
+            <h5>Web Development</h5>
+            <a href="#contact">contact me</a>
+          </div>
+          <div class="card">
+            <i data-feather="slack"></i>
+            <h5>Full stack</h5>
+            <a href="#contact">contact me</a>
+          </div>
+          <div class="card">
+            <i data-feather="figma"></i>
+            <h5>web design</h5>
+            <a href="#contact">contact me</a>
+          </div>
+          <div class="card">
+            <i data-feather="trello"></i>
+            <h5>Data Science</h5>
+            <a href="#contact">contact me</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- about end -->
+    <section class="project-container" id="project">
+      <div class="title">
+        <h5>case studies</h5>
+        <h1>projects</h1>
+        <p>
+          Here are some projects I've created. Please click on the project you'd
+          like to visit.
+        </p>
+      </div>
+
+      <div class="card-project">
+        <a href="#" target="_blank">
+          <div class="project project-1">
+            <h5>kalkulator</h5>
+          </div>
+        </a>
+        <a href="" target="_blank">
+          <div class="project project-2">
+            <h5>portofolio</h5>
+          </div>
+        </a>
+        <a
+          href="https://893asphaghona.github.io/laundriKu.rcs/"
+          target="_blank">
+          <div class="project project-3">
+            <h5>laundryKu</h5>
+          </div>
+        </a>
+        <a href="" target="_blank">
+          <div class="project project-4">
+            <h5>komik</h5>
+          </div>
+        </a>
+        <a href="" target="_blank">
+          <div class="project project-5">
+            <h5>dashboard</h5>
+          </div>
+        </a>
+        <a href="" target="_blank">
+          <div class="project project-5">
+            <h5>dashboard</h5>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <!-- contact me -->
+    <section class="contact-container" id="contact">
+      <h5>get in touch</h5>
+      <h1>contact me</h1>
+      <form action="#" onsubmit="sendMessageToWhatsapp()">
+        <label for="nama">Name:</label>
+        <input type="text" id="nama" placeholder="Enter your name" />
+
+        <label for="email">Email:</label>
+        <input
+          type="text"
+          id="email"
+          placeholder="Enter your name or phone number" />
+
+        <label for="message">Message:</label>
+        <textarea
+          id="pesan"
+          placeholder="Enter your message"
+          style="height: 200px"></textarea>
+
+        <button type="submit">send</button>
+      </form>
+    </section>
+
+    <!-- footer -->
+    <footer>
+      <div class="footer-content">
+        <p>Hak Cipta &copy; 2024. oleh ricardo candra sulebaganti</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+      feather.replace();
+    </script>
+  </body>
+</html>
